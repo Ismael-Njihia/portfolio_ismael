@@ -927,11 +927,35 @@ padding-bottom: 4rem;
     row-gap: 1rem;
     text-align: initial;
   }
+  .home__name{
+    position: absolute;
+    row-gap: 1.5rem;
+    margin-left: 530px;
+    top: 300px;
+    font-size: 70px
+  }
+  .home__profession{
+    position: absolute;
+    row-gap: 1.5rem;
+    margin-left: 530px;
+    top: 420px;
+    text-align: right;
+    font-size: var(--body-font);
+  }
+ 
+  .home__button{
+    position: absolute;
+    row-gap: 1.5rem;
+    margin-left: 530px;
+    top: 480px;
+    text-align: right;
+    
+  }
   .home__social{
     flex-direction: column;
     row-gap: 1.5rem;
     position: absolute;
-    top: -4rem;
+    top: -5rem;
     bottom: 0;
     right: 0;
   }
@@ -939,7 +963,9 @@ padding-bottom: 4rem;
     color: var(--first-color);
   }
   .home__button{
-    justify-self: flex-start;
+    position: absolute;
+    margin-left: 450px;
+    
   }
   .services__container{
     grid-template-columns: repeat(3, 345px);
